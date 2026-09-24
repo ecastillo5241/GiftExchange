@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Join(){return <main className="formPage"><div className="formShell"><Link className="brand" href="/">Gift<span>Exchange</span></Link><p className="sectionLabel">JOIN AN EXCHANGE</p><h1>Someone saved<br/><em>you a spot.</em></h1><p className="lead">Paste the invite code or open the private link your organizer sent you.</p><form><label>Invite code<input placeholder="e.g. MERRY-824"/></label><button className="button" type="button">Find my exchange <span>→</span></button></form></div></main>}
